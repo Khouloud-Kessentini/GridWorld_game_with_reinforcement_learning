@@ -1,1 +1,1 @@
-# GridWorld_game_with_reinforcement_learning
+# Playing GridWorld game using Reinforcement Learning
