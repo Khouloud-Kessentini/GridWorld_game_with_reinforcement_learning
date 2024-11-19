@@ -5,6 +5,12 @@ This project implements a GridWorld Environment where an agent learns to navigat
 <p align="center">
   <img src="img/path_visualization_2.png" alt="Project Logo" width="444" height="444"/>
 </p>
+### Demo Video
+
+<video width="640" height="360" controls>
+  <source src="rl_project.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ### Prerequisites
 
