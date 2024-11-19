@@ -25,11 +25,11 @@ pip install numpy matplotlib
     The agent can move in four directions: up, down, left, and right.
 
   * **Q-Learning:**
-        - Learning Rate (ALPHA): Determines how much the Q-value is updated on each step.
-        - Discount Factor (GAMMA): Prioritizes immediate vs. future rewards.
-        - Epsilon-Greedy Policy (EPSILON): Balances exploration and exploitation during training.
+    - Learning Rate (ALPHA): Determines how much the Q-value is updated on each step.
+    - Discount Factor (GAMMA): Prioritizes immediate vs. future rewards.
+    - Epsilon-Greedy Policy (EPSILON): Balances exploration and exploitation during training.
 
   * **Rewards:**
-        - Reaching the goal: +100.
-        - Stepping into free space: -1.
-        - Hitting an obstacle: Position resets, with no additional penalty.
+    - Reaching the goal: +100.
+    - Stepping into free space: -1.
+    - Hitting an obstacle: Position resets, with no additional penalty.
