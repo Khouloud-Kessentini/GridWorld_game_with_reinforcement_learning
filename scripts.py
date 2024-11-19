@@ -9,7 +9,7 @@ from matplotlib.colors import ListedColormap
 ALPHA = 0.1  # Learning rate
 GAMMA = 0.9  # Discount factor
 EPSILON = 0.1  # Epsilon-greedy policy
-NUM_EPISODES = 3000 
+NUM_EPISODES = 400 
 MAZE_SIZE = 10
 START_STATE = (0, 0)
 GOAL_STATE = (9, 9)
@@ -95,7 +95,7 @@ def q_learning_with_step_visualization(env, num_episodes):
                 reward + GAMMA * Q_TABLE[next_state][best_next_action] - Q_TABLE[state][action]
             )
 
-            if episode % 100 == 0  and episode >0 or episode ==9:
+            if episode % 50 == 0  and episode >0 or episode ==9:
                 print(
                     f"Step: State {state} -> Action '{action}' -> Next State {next_state} | "
                     f"Reward: {reward}{' (Obstacle hit)' if obstacle_hit else ''}"
