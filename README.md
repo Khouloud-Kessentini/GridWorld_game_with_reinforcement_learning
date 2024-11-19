@@ -49,6 +49,11 @@ Run the script
 ```python
 python scripts.py
 ```
+### Output
+
+  * **Console Logs.** Tracks episode progress, actions, rewards, and total rewards for every 100th episode.
+  * **Plots** Visual representation of agent movement, obstacles, and learned policy arrows.
+
 ### Contributing
 
 Contributions are welcome ! Feel free to open issues or submit pull requests to improve this project.
