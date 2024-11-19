@@ -74,7 +74,7 @@ python scripts.py
   </p>
   * **Plots** Visual representation of agent movement, obstacles, and learned policy arrows.
   <p align="center">
-    <img src="img/terminal_output.png" alt="Project Logo" width="744" height="444"/>
+    <img src="img/terminal_output.png" alt="Project Logo" width="544" height="294"/>
   </p>
 ### Contributing
 
