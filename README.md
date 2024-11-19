@@ -70,11 +70,11 @@ python scripts.py
   * **Console Logs.** Tracks episode progress, actions, rewards, and total rewards for every 100th episode.
 
   <p align="center">
-    <img src="img/path_visualization_2.png" alt="Project Logo" width="444" height="444"/>
+    <img src="img/path_example.png" alt="Project Logo" width="444" height="444"/>
   </p>
   * **Plots** Visual representation of agent movement, obstacles, and learned policy arrows.
   <p align="center">
-    <img src="img/path_visualization_2.png" alt="Project Logo" width="444" height="444"/>
+    <img src="img/terminal_output.png" alt="Project Logo" width="744" height="444"/>
   </p>
 ### Contributing
 
