@@ -52,6 +52,19 @@ Where:
 - $$\(\alpha\)$$: Learning rate
 - $$\(\gamma\)$$: Discount factor
 
+
+### Output
+
+  * **Console Logs.** Tracks episode progress, actions, rewards, and total rewards for every 100th episode.
+  <p align="center">
+    <img src="img/path_example.png" alt="Project Logo" width="444" height="444"/>
+  </p>
+  
+  * **Plots** Visual representation of agent movement, obstacles, and learned policy arrows.
+  <p align="center">
+    <img src="img/terminal_output.png" alt="Project Logo" width="544" height="294"/>
+  </p>
+
 ### How to Run
 
 Clone the repository :
@@ -65,18 +78,7 @@ Run the script
 ```python
 python scripts.py
 ```
-### Output
 
-  * **Console Logs.** Tracks episode progress, actions, rewards, and total rewards for every 100th episode.
-  <p align="center">
-    <img src="img/path_example.png" alt="Project Logo" width="444" height="444"/>
-  </p>
-  
-  * **Plots** Visual representation of agent movement, obstacles, and learned policy arrows.
-  <p align="center">
-    <img src="img/terminal_output.png" alt="Project Logo" width="544" height="294"/>
-  </p>
-  
 ### Contributing
 
 Contributions are welcome ! Feel free to open issues or submit pull requests to improve this project.
