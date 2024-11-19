@@ -15,6 +15,7 @@ pip install numpy matplotlib
 ### How It Works
 
   * **Maze Environment:**
+    
     A 10x10 grid where cells can be:
       - Start State: The initial position of the agent (default: (0, 0)).
       - Goal State: The target position of the agent (default: (9, 9)).
