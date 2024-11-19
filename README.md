@@ -24,7 +24,7 @@ pip install numpy matplotlib
 
   * **Agent Actions**
     
-    The agent can move in four directions: up, down, left, and right.
+    The agent can move in four directions: ```up```, ```down```, ```left```, and ```right```.
 
   * **Q-Learning**
     - Learning Rate (ALPHA): Determines how much the Q-value is updated on each step.
