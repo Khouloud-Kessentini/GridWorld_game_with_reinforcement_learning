@@ -21,7 +21,6 @@ ACTIONS = ['up', 'down', 'left', 'right']
 
 class MazeEnv:
 
-    """Maze environment with a 5x5 grid and obstacles."""
     def __init__(self):
         self.grid = np.zeros((MAZE_SIZE, MAZE_SIZE))
         self._add_obstacles()
@@ -31,18 +30,15 @@ class MazeEnv:
         self.state = self.start_state
 
     def _add_obstacles(self):
-        """Random obstacles generation."""
         for i in range(20):
             x, y = random.randint(0,9), random.randint(0,9)
             self.grid[x,y] = OBSTACLE
             
     def reset(self):
-        """Reset environment to the start state."""
         self.state = self.start_state
         return self.state
 
     def step(self, action):
-        """Take a step in the environment based on the chosen action."""
         x, y = self.state
 
         # Move based on the action
@@ -70,7 +66,6 @@ Q_TABLE = {
 
 
 def q_learning_with_step_visualization(env, num_episodes):
-    """Perform Q-learning with step-by-step updates and dynamic visualization."""
     for episode in range(num_episodes):
         state = env.reset()
         total_reward = 0
@@ -111,7 +106,6 @@ def q_learning_with_step_visualization(env, num_episodes):
 
 
 def plot_step_by_step(env, path, episode, total_reward):
-    """Update the maze visualization with obstacles as small squares and the agent's path."""
     maze = np.copy(env.grid)
     plt.ion()
     plt.figure(1, figsize=(8, 8))
@@ -147,7 +141,6 @@ def plot_step_by_step(env, path, episode, total_reward):
 
 
 def plot_learning_progress(env, path, q_table, episode):
-    """Dynamically update the maze visualization in a single window."""
     maze = np.copy(env.grid)
     
     plt.ion()
