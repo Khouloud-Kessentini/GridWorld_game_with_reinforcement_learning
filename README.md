@@ -14,7 +14,7 @@ pip install numpy matplotlib
 
 ### How It Works
 
-  * **Maze Environment:**
+  * **Maze Environment**
     
     A 10x10 grid where cells can be:
       - Start State: The initial position of the agent (default: (0, 0)).
@@ -22,15 +22,16 @@ pip install numpy matplotlib
       - Obstacles: Randomly placed cells with a penalty (OBSTACLE = -100).
       - Free Space: All other cells.
 
-  * **Agent Actions:**
+  * **Agent Actions**
+    
     The agent can move in four directions: up, down, left, and right.
 
-  * **Q-Learning:**
+  * **Q-Learning**
     - Learning Rate (ALPHA): Determines how much the Q-value is updated on each step.
     - Discount Factor (GAMMA): Prioritizes immediate vs. future rewards.
     - Epsilon-Greedy Policy (EPSILON): Balances exploration and exploitation during training.
 
-  * **Rewards:**
+  * **Rewards**
     - Reaching the goal: +100.
     - Stepping into free space: -1.
     - Hitting an obstacle: Position resets, with no additional penalty.
