@@ -49,8 +49,8 @@ Where:
 - \(a\): Action taken
 - \(s'\): Next state
 - \(r\): Reward received
-- \(\alpha\): Learning rate
-- \(\gamma\): Discount factor
+- $$\(\alpha\)$$: Learning rate
+- $$\(\gamma\)$$: Discount factor
 
 ### How to Run
 
