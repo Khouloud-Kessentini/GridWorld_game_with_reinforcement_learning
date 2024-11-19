@@ -1,4 +1,4 @@
-# Playing Maze game using Reinforcement Learning
+# Playing a Maze Using Reinforcement Learning
 
 This project implements a GridWorld Environment where an agent learns to navigate from a starting position to a goal while avoiding obstacles using the Q-Learning algorithm. The implementation includes dynamic visualization to demonstrate the agent's learning process and decisions during each episode.
 <br/>
@@ -49,3 +49,11 @@ Run the script
 ```python
 python scripts.py
 ```
+### Output
+
+  * **Console Logs.** Tracks episode progress, actions, rewards, and total rewards for every 100th episode.
+  * **Plots** Visual representation of agent movement, obstacles, and learned policy arrows.
+
+### Contributing
+
+Contributions are welcome ! Feel free to open issues or submit pull requests to improve this project.
