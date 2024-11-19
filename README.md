@@ -36,6 +36,22 @@ pip install numpy matplotlib
     - Stepping into free space: -1.
     - Hitting an obstacle: Position resets, with no additional penalty.
 
+### Q-Learning Algorithm
+
+The agent updates its Q-values using the Bellman equation:
+
+\[
+Q(s, a) \leftarrow Q(s, a) + \alpha \left[ r + \gamma \max_{a'} Q(s', a') - Q(s, a) \right]
+\]
+
+Where:
+- \(s\): Current state
+- \(a\): Action taken
+- \(s'\): Next state
+- \(r\): Reward received
+- \(\alpha\): Learning rate
+- \(\gamma\): Discount factor
+
 ### How to Run
 
 Clone the repository :
