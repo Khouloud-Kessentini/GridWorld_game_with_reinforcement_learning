@@ -3,7 +3,7 @@
 This project implements a GridWorld Environment where an agent learns to navigate from a starting position to a goal while avoiding obstacles using the Q-Learning algorithm. The implementation includes dynamic visualization to demonstrate the agent's learning process and decisions during each episode.
 <br/>
 <p align="center">
-  <img src="fig.png" alt="Project Logo" width="444" height="444"/>
+  <img src="img/path_visualization_2.png" alt="Project Logo" width="444" height="444"/>
 </p>
 
 ### Prerequisites
@@ -68,8 +68,14 @@ python scripts.py
 ### Output
 
   * **Console Logs.** Tracks episode progress, actions, rewards, and total rewards for every 100th episode.
-  * **Plots** Visual representation of agent movement, obstacles, and learned policy arrows.
 
+  <p align="center">
+    <img src="img/path_visualization_2.png" alt="Project Logo" width="444" height="444"/>
+  </p>
+  * **Plots** Visual representation of agent movement, obstacles, and learned policy arrows.
+  <p align="center">
+    <img src="img/path_visualization_2.png" alt="Project Logo" width="444" height="444"/>
+  </p>
 ### Contributing
 
 Contributions are welcome ! Feel free to open issues or submit pull requests to improve this project.
