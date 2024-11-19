@@ -35,3 +35,17 @@ pip install numpy matplotlib
     - Reaching the goal: +100.
     - Stepping into free space: -1.
     - Hitting an obstacle: Position resets, with no additional penalty.
+
+### How to Run
+
+Clone the repository :
+
+```python
+git clone https://github.com/Khouloud-Kessentini/Solving-a-Maze-using-Reinforcement-Learning.git
+cd Solving-a-Maze-using-Reinforcement-Learning
+```
+
+Run the script
+```python
+python scripts.py
+```
