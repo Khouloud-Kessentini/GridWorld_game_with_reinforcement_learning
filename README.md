@@ -54,7 +54,7 @@ Where:
 
 
 ### Output
-  * **Plots** Visual representation of agent movement, obstacles, and learned policy arrows.
+  * **Plots** Visual representation of agent movement and obstacles.
   <p align="center">
     <img src="img/path_example.png" alt="Project Logo" width="444" height="444"/>
   </p>
