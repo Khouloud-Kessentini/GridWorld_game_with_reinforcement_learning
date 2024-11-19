@@ -15,11 +15,11 @@ pip install numpy matplotlib
 ### How It Works
 
   * **Maze Environment:**
-        A 10x10 grid where cells can be:
-            - Start State: The initial position of the agent (default: (0, 0)).
-            - Goal State: The target position of the agent (default: (9, 9)).
-            - Obstacles: Randomly placed cells with a penalty (OBSTACLE = -100).
-            - Free Space: All other cells.
+    A 10x10 grid where cells can be:
+      - Start State: The initial position of the agent (default: (0, 0)).
+      - Goal State: The target position of the agent (default: (9, 9)).
+      - Obstacles: Randomly placed cells with a penalty (OBSTACLE = -100).
+      - Free Space: All other cells.
 
   * **Agent Actions:**
     The agent can move in four directions: up, down, left, and right.
